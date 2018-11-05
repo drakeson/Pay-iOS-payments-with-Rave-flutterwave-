@@ -1,0 +1,11 @@
+framework module Rave {
+  umbrella header "Rave.h"
+
+  export *
+  module * { export * }
+}
+
+module Rave.Swift {
+    header "Rave-Swift.h"
+    requires objc
+}

@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.7.3)
+  - BSErrorMessageView (1.1)
+  - CreditCardValidator (0.4)
+  - DynamicBlurView (3.0.1)
+  - IQKeyboardManagerSwift (6.2.0)
+  - KVNProgress (2.3.5)
+  - PopupDialog (0.9.1):
+    - DynamicBlurView (~> 3.0.1)
+  - Shimmer (1.0.2)
+  - SwiftValidator (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BSErrorMessageView (from `https://github.com/BenjaminSarkisyan/BSErrorMessageView.git`)
+  - CreditCardValidator
+  - IQKeyboardManagerSwift
+  - KVNProgress (~> 2.3.1)
+  - PopupDialog
+  - Shimmer
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CreditCardValidator
+    - DynamicBlurView
+    - IQKeyboardManagerSwift
+    - KVNProgress
+    - PopupDialog
+    - Shimmer
+
+EXTERNAL SOURCES:
+  BSErrorMessageView:
+    :git: https://github.com/BenjaminSarkisyan/BSErrorMessageView.git
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  BSErrorMessageView:
+    :commit: e1523069939ac597f9b7a9c615d718f89c071b49
+    :git: https://github.com/BenjaminSarkisyan/BSErrorMessageView.git
+  SwiftValidator:
+    :commit: c0ee801a2d107eca5f748d07932b449666d8effd
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  BSErrorMessageView: 67cc7d172995fbc6df602c2b8923f48121ddf7a9
+  CreditCardValidator: 9f0814dd61682c004071a250d89327ca83514a48
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  KVNProgress: d7046cce142f1aeb740db39dc3cacfe910fac354
+  PopupDialog: 03985b669c29802661c187513bf827340db1ae4d
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+
+PODFILE CHECKSUM: f3c027a25b926a603c91672c08e17dba4cedeaff
+
+COCOAPODS: 1.5.2
